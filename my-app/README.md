@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# tea’s Decentralized Protocol
+
+[![Contributor](https://img.shields.io/github/contributors/brilliantkid87/tea-testnet?style=flat-squ)](https://img.shields.io/github/contributors/brilliantkid87/tea-testnet?style=flat-squ) [![Issue](https://img.shields.io/github/issues/brilliantkid87/tea-testnet?style=flat-square)](https://img.shields.io/github/issues/brilliantkid87/tea-testnet?style=flat-square) [![Starts](https://img.shields.io/github/stars/brilliantkid87/tea-testnet?style=flat-square)](https://img.shields.io/github/stars/brilliantkid87/tea-testnet?style=flat-square) [![Last commit](https://img.shields.io/github/last-commit/brilliantkid87/tea-testnet?style=flat-square)](https://img.shields.io/github/last-commit/brilliantkid87/tea-testnet?style=flat-square) [![languages](https://img.shields.io/github/languages/code-size/brilliantkid87/tea-testnet?style=flat-square)](https://img.shields.io/github/languages/code-size/brilliantkid87/tea-testnet?style=flat-square) [![Issue](https://img.shields.io/github/license/brilliantkid87/tea-testnet?style=flat-square)](https://img.shields.io/github/license/brilliantkid87/tea-testnet?style=flat-square)
+
+## Stacks
+
+Before executing the application, ensure that the required programming language toolchains are installed and that any necessary services are running, considering the various stacks used in its development.
 
 ## Getting Started
 
-First, run the development server:
+Recommended [Node.js](https://nodejs.org/) v18+ or v20 to run.
 
-```bash
+Install the dependencies and devDependencies and start the server.
+
+For Development
+```sh
+cd my-app
+npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+cd my-app
+npm i
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Verify the deployment by navigating to your server address in
+your preferred browser.
 
-## Learn More
+```sh
+http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ISC
