@@ -26,7 +26,18 @@
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
   "main": "postcss.config.js",
-  "author": "",
+  "author": "brilliantkid87",
   "license": "ISC",
-  "source": "https://github.com/brilliantkid87"
+  "source": "https://github.com/brilliantkid87",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brilliantkid87/tea-testnet.git"
+  },
+  "keywords": [
+    "tea"
+  ],
+  "bugs": {
+    "url": "https://github.com/brilliantkid87/tea-testnet/issues"
+  },
+  "homepage": "https://github.com/brilliantkid87/tea-testnet#readme"
 }
